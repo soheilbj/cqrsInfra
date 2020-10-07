@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CQRSInfra.Application\CQRSInfra.Application.csproj" />
+    <ProjectReference Include="..\CQRSInfra.Domain\CQRSInfra.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CQRSInfra.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CQRSInfra.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CQRSInfra.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CQRSInfra.Application.dll": {}
+        }
+      },
+      "CQRSInfra.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CQRSInfra.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CQRSInfra.Domain.dll": {}
+        }
+      },
+      "CQRSInfra.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CQRSInfra.Application": "1.0.0",
+          "CQRSInfra.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CQRSInfra.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CQRSInfra.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CQRSInfra.Application/1.0.0": {
+      "type": "project",
+      "path": "../CQRSInfra.Application/CQRSInfra.Application.csproj",
+      "msbuildProject": "../CQRSInfra.Application/CQRSInfra.Application.csproj"
+    },
+    "CQRSInfra.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CQRSInfra.Domain/CQRSInfra.Domain.csproj",
+      "msbuildProject": "../CQRSInfra.Domain/CQRSInfra.Domain.csproj"
+    },
+    "CQRSInfra.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CQRSInfra.Infrastructure/CQRSInfra.Infrastructure.csproj",
+      "msbuildProject": "../CQRSInfra.Infrastructure/CQRSInfra.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CQRSInfra.Application >= 1.0.0",
+      "CQRSInfra.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\S.bijavar\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Api\\CQRSInfra.Api.csproj",
+      "projectName": "CQRSInfra.Api",
+      "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Api\\CQRSInfra.Api.csproj",
+      "packagesPath": "C:\\Users\\S.bijavar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\S.bijavar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Application\\CQRSInfra.Application.csproj": {
+              "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Application\\CQRSInfra.Application.csproj"
+            },
+            "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Infrastructure\\CQRSInfra.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Infrastructure\\CQRSInfra.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

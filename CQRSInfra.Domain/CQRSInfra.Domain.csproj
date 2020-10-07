@@ -6,7 +6,54 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Customers\Customer.cs" />
+    <Compile Include="Customers\CustomerId.cs" />
+    <Compile Include="Customers\CustomerRegisteredEvent.cs" />
+    <Compile Include="Customers\ICustomerUniquenessChecker.cs" />
+    <Compile Include="Customers\Orders\Events\OrderChangedEvent.cs" />
+    <Compile Include="Customers\Orders\Events\OrderPlacedEvent.cs" />
+    <Compile Include="Customers\Orders\Events\OrderRemovedEvent.cs" />
+    <Compile Include="Customers\Orders\ICustomerRepository.cs" />
+    <Compile Include="Customers\Orders\Order.cs" />
+    <Compile Include="Customers\Orders\OrderId.cs" />
+    <Compile Include="Customers\Orders\OrderNotificationsService.cs" />
+    <Compile Include="Customers\Orders\OrderProduct.cs" />
+    <Compile Include="Customers\Orders\OrderProductData.cs" />
+    <Compile Include="Customers\Orders\OrderStatus.cs" />
+    <Compile Include="Customers\Rules\CustomerCannotOrderMoreThan2OrdersOnTheSameDayRule.cs" />
+    <Compile Include="Customers\Rules\CustomerEmailMustBeUniqueRule.cs" />
+    <Compile Include="Customers\Rules\OrderMustHaveAtLeastOneProductRule.cs" />
+    <Compile Include="ForeignExchange\ConversionRate.cs" />
+    <Compile Include="ForeignExchange\IForeignExchange.cs" />
+    <Compile Include="Payments\IPaymentRepository.cs" />
+    <Compile Include="Payments\Payment.cs" />
+    <Compile Include="Payments\PaymentCreatedEvent.cs" />
+    <Compile Include="Payments\PaymentId.cs" />
+    <Compile Include="Payments\PaymentStatus.cs" />
+    <Compile Include="Products\IProductRepository.cs" />
+    <Compile Include="Products\Product.cs" />
+    <Compile Include="Products\ProductId.cs" />
+    <Compile Include="Products\ProductPrice.cs" />
+    <Compile Include="Products\ProductPriceData.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="SeedWork\BusinessRuleValidationException.cs" />
+    <Compile Include="SeedWork\DomainEventBase.cs" />
+    <Compile Include="SeedWork\Entity.cs" />
+    <Compile Include="SeedWork\IAggregateRoot.cs" />
+    <Compile Include="SeedWork\IBusinessRule.cs" />
+    <Compile Include="SeedWork\IDomainEvent.cs" />
+    <Compile Include="SeedWork\IgnoreMemberAttribute.cs" />
+    <Compile Include="SeedWork\IUnitOfWork.cs" />
+    <Compile Include="SeedWork\TypedIdValueBase.cs" />
+    <Compile Include="SeedWork\ValueObject.cs" />
+    <Compile Include="SharedKernel\MoneyValue.cs" />
+    <Compile Include="SharedKernel\MoneyValueMustHaveCurrencyRule.cs" />
+    <Compile Include="SharedKernel\MoneyValueOperationMustBePerformedOnTheSameCurrencyRule.cs" />
+    <Compile Include="SharedKernel\SystemClock.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.1.0" />
   </ItemGroup>
 
 </Project>

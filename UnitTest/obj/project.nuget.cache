@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+UQ5DD8laVBOrGVrZAJZXVO4DkgzYck1IzV+1uqNm136cJ/bLzXEwKo0VjY9KCisFPPxDty3kTicNYfVmKdFQ==",
+  "dgSpecHash": "QtYtPj09CeLFHH+vJGwKMHA01jOiLwz2nn6X3u6LRKeEJtfxFFmSD7yq0s6mcpGciVIlBdtO5yzJDOwI1zefnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\S.bijavar\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\S.bijavar\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\S.bijavar\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",

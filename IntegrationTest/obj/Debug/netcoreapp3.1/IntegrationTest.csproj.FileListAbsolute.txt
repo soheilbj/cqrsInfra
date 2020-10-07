@@ -103,3 +103,4 @@ C:\Users\S.bijavar\source\repos\CQRSInfra\IntegrationTest\obj\Debug\netcoreapp3.
 C:\Users\S.bijavar\source\repos\CQRSInfra\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.dll
 C:\Users\S.bijavar\source\repos\CQRSInfra\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.pdb
 C:\Users\S.bijavar\source\repos\CQRSInfra\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.genruntimeconfig.cache
+C:\Users\S.bijavar\source\repos\CQRSInfra\IntegrationTest\bin\Debug\netcoreapp3.1\MediatR.dll

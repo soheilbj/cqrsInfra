@@ -1,12 +1,68 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Configuration\Commands\CommandBase.cs" />
+    <Compile Include="Configuration\Commands\ICommand.cs" />
+    <Compile Include="Configuration\Commands\ICommandHandler.cs" />
+    <Compile Include="Configuration\Commands\InternalCommandBase.cs" />
+    <Compile Include="Configuration\Data\ISqlConnectionFactory.cs" />
+    <Compile Include="Configuration\DomainEvents\DomainNotificationBase.cs" />
+    <Compile Include="Configuration\DomainEvents\IDomainEventNotification.cs" />
+    <Compile Include="Configuration\Emails\EmailMessage.cs" />
+    <Compile Include="Configuration\Emails\EmailsSettings.cs" />
+    <Compile Include="Configuration\Emails\IEmailSender.cs" />
+    <Compile Include="Configuration\IExecutionContextAccessor.cs" />
+    <Compile Include="Configuration\Processing\ICommandsScheduler.cs" />
+    <Compile Include="Configuration\Queries\IQuery.cs" />
+    <Compile Include="Configuration\Queries\IQueryHandler.cs" />
+    <Compile Include="Configuration\Validation\CommandValidationBehavior.cs" />
+    <Compile Include="Configuration\Validation\InvalidCommandException.cs" />
+    <Compile Include="Customers\CustomerDto.cs" />
+    <Compile Include="Customers\DomainServices\CustomerUniquenessChecker.cs" />
+    <Compile Include="Customers\GetCustomerDetails\CustomerDto.cs" />
+    <Compile Include="Customers\GetCustomerDetails\GetCustomerDetailsQuery.cs" />
+    <Compile Include="Customers\GetCustomerDetails\GetCustomerDetailsQueryHandler.cs" />
+    <Compile Include="Customers\IntegrationHandlers\CustomerRegisteredNotification.cs" />
+    <Compile Include="Customers\IntegrationHandlers\CustomerRegisteredNotificationHandler.cs" />
+    <Compile Include="Customers\IntegrationHandlers\MarkCustomerAsWelcomedCommandHandler.cs" />
+    <Compile Include="Customers\MarkCustomerAsWelcomedCommand.cs" />
+    <Compile Include="Customers\RegisterCustomer\RegisterCustomerCommand.cs" />
+    <Compile Include="Customers\RegisterCustomer\RegisterCustomerCommandHandler.cs" />
+    <Compile Include="Customers\RegisterCustomer\RegisterCustomerRequest.cs" />
+    <Compile Include="Orders\ChangeCustomerOrder\ChangeCustomerOrderCommand.cs" />
+    <Compile Include="Orders\ChangeCustomerOrder\ChangeCustomerOrderCommandHandler.cs" />
+    <Compile Include="Orders\GetCustomerOrderDetails\GetCustomerOrderDetailsQuery.cs" />
+    <Compile Include="Orders\GetCustomerOrderDetails\GetCustomerOrderDetailsQueryHandler.cs" />
+    <Compile Include="Orders\GetCustomerOrderDetails\OrderDetailsDto.cs" />
+    <Compile Include="Orders\GetCustomerOrders\GetCustomerOrdersQuery.cs" />
+    <Compile Include="Orders\GetCustomerOrders\GetCustomerOrdersQueryHandler.cs" />
+    <Compile Include="Orders\GetCustomerOrders\OrderDto.cs" />
+    <Compile Include="Orders\PlaceCustomerOrder\OrderPlacedDomainEventHandler.cs" />
+    <Compile Include="Orders\PlaceCustomerOrder\OrderPlacedNotification.cs" />
+    <Compile Include="Orders\PlaceCustomerOrder\OrderPlacedNotificationHandler.cs" />
+    <Compile Include="Orders\PlaceCustomerOrder\PlaceCustomerOrderCommand.cs" />
+    <Compile Include="Orders\PlaceCustomerOrder\PlaceCustomerOrderCommandHandler.cs" />
+    <Compile Include="Orders\PlaceCustomerOrder\PlaceCustomerOrderCommandValidator.cs" />
+    <Compile Include="Orders\PlaceCustomerOrder\ProductDtoValidator.cs" />
+    <Compile Include="Orders\PlaceCustomerOrder\ProductPriceProvider.cs" />
+    <Compile Include="Orders\ProductDto.cs" />
+    <Compile Include="Orders\RemoveCustomerOrder\RemoveCustomerOrderCommand.cs" />
+    <Compile Include="Orders\RemoveCustomerOrder\RemoveCustomerOrderCommandHandler.cs" />
+    <Compile Include="Payments\PaymentCreatedNotification.cs" />
+    <Compile Include="Payments\PaymentCreatedNotificationHandler.cs" />
+    <Compile Include="Payments\SendEmailAfterPayment\SendEmailAfterPaymentCommand.cs" />
+    <Compile Include="Payments\SendEmailAfterPayment\SendEmailAfterPaymentCommandHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="FluentValidation" Version="9.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>

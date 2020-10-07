@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
@@ -35,7 +35,6 @@
     <Compile Include="Products\ProductId.cs" />
     <Compile Include="Products\ProductPrice.cs" />
     <Compile Include="Products\ProductPriceData.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="SeedWork\BusinessRuleValidationException.cs" />
     <Compile Include="SeedWork\DomainEventBase.cs" />
     <Compile Include="SeedWork\Entity.cs" />

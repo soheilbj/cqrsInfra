@@ -1,4 +1,3 @@
-C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\bin\Debug\netcoreapp3.1\CQRSInfra.Domain.exe
 C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\bin\Debug\netcoreapp3.1\nunit.engine.dll

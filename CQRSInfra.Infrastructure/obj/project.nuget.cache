@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "f4+AHToynp8VzZZ7q7eakJFVb/5KJ9BzOsm0kIMNrGafdpFYnx6/Wjq5kmXCDN5dveV1pcvsFCtSEC+t6Rt0fQ==",
+  "dgSpecHash": "gyATKA5Mjkw05HHoKGTuepAGFT+YUWK8ULrOtN2sODi90sDab6+yiRSuKRugbjFK8q05ju+chSpRza42qWcJwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Infrastructure\\CQRSInfra.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\S.bijavar\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512"
+    "C:\\Users\\S.bijavar\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\S.bijavar\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\S.bijavar\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
+    "C:\\Users\\S.bijavar\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\S.bijavar\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

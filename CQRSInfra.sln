@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest", "Integrat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{AB9EDF41-967E-4A52-B986-5F7E39D870FC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScript", "SQLScript", "{9FBCB865-15A5-43E6-81DB-CD807BDE7543}"
+	ProjectSection(SolutionItems) = preProject
+		..\sample-dotnet-core-cqrs-api\src\ClearData.sql = ..\sample-dotnet-core-cqrs-api\src\ClearData.sql
+		..\sample-dotnet-core-cqrs-api\src\InitializeDatabase.sql = ..\sample-dotnet-core-cqrs-api\src\InitializeDatabase.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -5,14 +5,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Configuration\CorrelationMiddleware.cs" />
+    <Compile Include="Configuration\ExecutionContextAccessor.cs" />
+    <Compile Include="Configuration\SwaggerExtensions.cs" />
+    <Compile Include="Customers\CustomersController.cs" />
+    <Compile Include="Orders\CustomerOrderRequest.cs" />
+    <Compile Include="Orders\CustomerOrdersController.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="SeedWork\BusinessRuleValidationExceptionProblemDetails.cs" />
+    <Compile Include="SeedWork\InvalidCommandProblemDetails.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="appsettings.Development.json" />
     <Content Include="appsettings.json" />
+    <Content Include="appsettings.Production.json" />
+    <Content Include="hosting.Development.json" />
+    <Content Include="hosting.json" />
+    <Content Include="hosting.Production.json" />
     <Content Include="Properties\launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="5.1.1" />
+    <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>

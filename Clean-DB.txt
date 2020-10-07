@@ -1,0 +1,17 @@
+DELETE FROM payments.Payments
+GO
+
+DELETE FROM orders.OrderProducts
+GO
+
+DELETE FROM orders.Orders
+GO
+
+DELETE FROM orders.Customers
+WHERE Id NOT IN ('b04d7769-bff7-4c32-b0ed-f4b2a35afbe9', '446c0c5e-1ef8-4210-8aa1-1ce0b44ad363')
+
+DELETE FROM app.OutboxMessages
+GO
+
+DELETE FROM app.InternalCommands
+GO

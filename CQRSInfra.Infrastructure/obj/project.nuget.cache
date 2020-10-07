@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wbDmVe6VVhSyj3Vc8coo70GEl2PlAJ0aNwCNSr1bcaellCIKse+bPPF0TSYumwGFFk/H3G08eATufCFlp3UXvg==",
+  "dgSpecHash": "tAWsJIfK54A5J4vFL0z4i3aBUTbZIF3MwVcCuXeWPIiw4A9oXKknkEBRGsS9NGp9MiPw8yPNOgBEmASBF70BWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Infrastructure\\CQRSInfra.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Infrastructure\\CQRSInfra.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S.bijavar\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\S.bijavar\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.0.2\\autofac.extensions.dependencyinjection.7.0.2.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZFXQxyjkt6y05SgVPdfbhp+q9Y2NzKS06+Shr69SzEaK5yAUiA34xtEpFcTV8dI6huWY16f4IAv2LS80kFprMQ==",
+  "dgSpecHash": "fTj07SlzarypFfPqHTOF67FAtauDN0hYEpo7PXOnsDkj8ZT0ulMhqe/2D1fvevdJcqzshsGjEvzgHYJ9kHr57A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\UnitTest\\UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S.bijavar\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\S.bijavar\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",

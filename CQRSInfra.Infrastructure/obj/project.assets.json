@@ -5870,11 +5870,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Infrastructure\\CQRSInfra.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Infrastructure\\CQRSInfra.Infrastructure.csproj",
       "projectName": "CQRSInfra.Infrastructure",
-      "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Infrastructure\\CQRSInfra.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Infrastructure\\CQRSInfra.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\S.bijavar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5893,11 +5893,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Application\\CQRSInfra.Application.csproj": {
-              "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Application\\CQRSInfra.Application.csproj"
+            "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Application\\CQRSInfra.Application.csproj": {
+              "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Application\\CQRSInfra.Application.csproj"
             },
-            "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj": {
-              "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj"
+            "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj": {
+              "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj"
             }
           }
         }

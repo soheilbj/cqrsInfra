@@ -3,24 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSInfra.Domain", "CQRSInfra.Domain\CQRSInfra.Domain.csproj", "{46764863-F5B0-4C9D-AA2D-5FB003323315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSInfra.Domain", "CQRSInfra.Domain\CQRSInfra.Domain.csproj", "{46764863-F5B0-4C9D-AA2D-5FB003323315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSInfra.Infrastructure", "CQRSInfra.Infrastructure\CQRSInfra.Infrastructure.csproj", "{1F0DF588-742B-4A62-86BB-1EC2EA187527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSInfra.Infrastructure", "CQRSInfra.Infrastructure\CQRSInfra.Infrastructure.csproj", "{1F0DF588-742B-4A62-86BB-1EC2EA187527}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{40390138-9D8D-4AD6-B05F-EB9BD22331A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSInfra.Application", "CQRSInfra.Application\CQRSInfra.Application.csproj", "{DC7500CB-594C-4E13-BC7D-E05BDC45E055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSInfra.Application", "CQRSInfra.Application\CQRSInfra.Application.csproj", "{DC7500CB-594C-4E13-BC7D-E05BDC45E055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSInfra.Api", "CQRSInfra.Api\CQRSInfra.Api.csproj", "{2EFCEC71-723C-4A17-9BF1-46495A0B3F11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSInfra.Api", "CQRSInfra.Api\CQRSInfra.Api.csproj", "{2EFCEC71-723C-4A17-9BF1-46495A0B3F11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest", "IntegrationTest\IntegrationTest.csproj", "{48B65F9F-6AAA-4A8E-8BDB-36ECCAB5DF24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTest", "IntegrationTest\IntegrationTest.csproj", "{48B65F9F-6AAA-4A8E-8BDB-36ECCAB5DF24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{AB9EDF41-967E-4A52-B986-5F7E39D870FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTest.csproj", "{AB9EDF41-967E-4A52-B986-5F7E39D870FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScript", "SQLScript", "{9FBCB865-15A5-43E6-81DB-CD807BDE7543}"
 	ProjectSection(SolutionItems) = preProject
-		..\sample-dotnet-core-cqrs-api\src\ClearData.sql = ..\sample-dotnet-core-cqrs-api\src\ClearData.sql
-		..\sample-dotnet-core-cqrs-api\src\InitializeDatabase.sql = ..\sample-dotnet-core-cqrs-api\src\InitializeDatabase.sql
+		Clean-DB.txt = Clean-DB.txt
+		Init-DB.txt = Init-DB.txt
 	EndProjectSection
 EndProject
 Global

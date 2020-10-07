@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9IDN3GQHz9gbyfCdV1/HpNCkG7gudGF6hV+twJ7aolH6JRWd6N9pRtlb/OcvWYll7xQH+qbANZw8EZvXjTW6Rg==",
+  "dgSpecHash": "kvJfwsOffTVuN+hxkuU9XwXCvIEzNVGqch6z2IIcPZNvCwjkC0EcNN/HsAXKPvfXyRtde1aHQssRcc70kl+qBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj",
+  "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S.bijavar\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512"
   ],

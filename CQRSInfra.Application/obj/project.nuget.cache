@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sax6zWL4BMHjeNPvFR3txYVKJucgDVZWzNi/T41/oMWfc1xjIu3D/zQPqcYDxM7XNJYcIVBEMOnSipwuSCCC/g==",
+  "dgSpecHash": "0vIikIv1nueyqHBnTOB4T19QzT36/dI38vtoiI5o5iAh2u82c+0FbjzC48qV9u0/MS5GEmAdi/l4NNuv4Qyhig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Application\\CQRSInfra.Application.csproj",
+  "projectFilePath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Application\\CQRSInfra.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S.bijavar\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\S.bijavar\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",

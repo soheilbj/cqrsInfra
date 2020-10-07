@@ -6,3 +6,4 @@ C:\Users\S.bijavar\source\repos\CQRSInfra\CQRSInfra.Domain\obj\Debug\netcoreapp3
 C:\Users\S.bijavar\source\repos\CQRSInfra\CQRSInfra.Domain\obj\Debug\netcoreapp3.1\CQRSInfra.Domain.csproj.CoreCompileInputs.cache
 C:\Users\S.bijavar\source\repos\CQRSInfra\CQRSInfra.Domain\obj\Debug\netcoreapp3.1\CQRSInfra.Domain.dll
 C:\Users\S.bijavar\source\repos\CQRSInfra\CQRSInfra.Domain\obj\Debug\netcoreapp3.1\CQRSInfra.Domain.pdb
+C:\Users\S.bijavar\source\repos\cqrsInfra\CQRSInfra.Domain\obj\Debug\netcoreapp3.1\CQRSInfra.Domain.csprojAssemblyReference.cache

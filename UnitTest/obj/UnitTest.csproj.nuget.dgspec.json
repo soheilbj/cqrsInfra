@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\UnitTest\\UnitTest.csproj": {}
+    "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj": {
+    "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj",
         "projectName": "CQRSInfra.Domain",
-        "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj",
+        "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj",
         "packagesPath": "C:\\Users\\S.bijavar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Domain\\obj\\",
+        "outputPath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\UnitTest\\UnitTest.csproj": {
+    "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\UnitTest\\UnitTest.csproj",
+        "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\UnitTest\\UnitTest.csproj",
         "packagesPath": "C:\\Users\\S.bijavar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -91,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj": {
-                "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\CQRSInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj"
+              "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj": {
+                "projectPath": "C:\\Users\\S.bijavar\\source\\repos\\cqrsInfra\\CQRSInfra.Domain\\CQRSInfra.Domain.csproj"
               }
             }
           }

@@ -1,12 +1,85 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ApplicationStartup.cs" />
+    <Compile Include="Caching\CachingModule.cs" />
+    <Compile Include="Caching\ICacheKey.cs" />
+    <Compile Include="Caching\ICacheStore.cs" />
+    <Compile Include="Caching\ICacheStoreItem.cs" />
+    <Compile Include="Caching\MemoryCacheStore.cs" />
+    <Compile Include="CompositionRoot.cs" />
+    <Compile Include="Database\DataAccessModule.cs" />
+    <Compile Include="Database\OrdersContext.cs" />
+    <Compile Include="Database\SchemaNames.cs" />
+    <Compile Include="Database\SqlConnectionFactory.cs" />
+    <Compile Include="Domain\Customers\CustomerEntityTypeConfiguration.cs" />
+    <Compile Include="Domain\Customers\CustomerRepository.cs" />
+    <Compile Include="Domain\DomainModule.cs" />
+    <Compile Include="Domain\ForeignExchanges\ConversionRatesCache.cs" />
+    <Compile Include="Domain\ForeignExchanges\ConversionRatesCacheKey.cs" />
+    <Compile Include="Domain\ForeignExchanges\ForeignExchange.cs" />
+    <Compile Include="Domain\Payments\PaymentEntityTypeConfiguration.cs" />
+    <Compile Include="Domain\Payments\PaymentRepository.cs" />
+    <Compile Include="Domain\Products\ProductEntityTypeConfiguration.cs" />
+    <Compile Include="Domain\Products\ProductRepository.cs" />
+    <Compile Include="Domain\UnitOfWork.cs" />
+    <Compile Include="Emails\EmailModule.cs" />
+    <Compile Include="Emails\EmailSender.cs" />
+    <Compile Include="Logging\LoggingCommandHandlerDecorator.cs" />
+    <Compile Include="Logging\LoggingCommandHandlerWithResultDecorator.cs" />
+    <Compile Include="Logging\LoggingModule.cs" />
+    <Compile Include="Processing\AllConstructorFinder.cs" />
+    <Compile Include="Processing\Assemblies.cs" />
+    <Compile Include="Processing\CommandsExecutor.cs" />
+    <Compile Include="Processing\CommandsScheduler.cs" />
+    <Compile Include="Processing\DomainEventsDispatcher.cs" />
+    <Compile Include="Processing\DomainEventsDispatcherNotificationHandlerDecorator.cs" />
+    <Compile Include="Processing\ICommandsDispatcher.cs" />
+    <Compile Include="Processing\IDomainEventsDispatcher.cs" />
+    <Compile Include="Processing\InternalCommands\CommandsDispatcher.cs" />
+    <Compile Include="Processing\InternalCommands\InternalCommand.cs" />
+    <Compile Include="Processing\InternalCommands\InternalCommandEntityTypeConfiguration.cs" />
+    <Compile Include="Processing\InternalCommands\ProcessInternalCommandsCommand.cs" />
+    <Compile Include="Processing\InternalCommands\ProcessInternalCommandsCommandHandler.cs" />
+    <Compile Include="Processing\InternalCommands\ProcessInternalCommandsJob.cs" />
+    <Compile Include="Processing\MediatorModule.cs" />
+    <Compile Include="Processing\Outbox\IRecurringCommand.cs" />
+    <Compile Include="Processing\Outbox\OutboxMessage.cs" />
+    <Compile Include="Processing\Outbox\OutboxMessageDto.cs" />
+    <Compile Include="Processing\Outbox\OutboxMessageEntityTypeConfiguration.cs" />
+    <Compile Include="Processing\Outbox\ProcessOutboxCommand.cs" />
+    <Compile Include="Processing\Outbox\ProcessOutboxCommandHandler.cs" />
+    <Compile Include="Processing\Outbox\ProcessOutboxJob.cs" />
+    <Compile Include="Processing\ProcessingModule.cs" />
+    <Compile Include="Processing\QueriesExecutor.cs" />
+    <Compile Include="Processing\UnitOfWorkCommandHandlerDecorator.cs" />
+    <Compile Include="Processing\UnitOfWorkCommandHandlerWithResultDecorator.cs" />
+    <Compile Include="Quartz\JobFactory.cs" />
+    <Compile Include="Quartz\QuartzModule.cs" />
+    <Compile Include="SeedWork\DbSetExtensions.cs" />
+    <Compile Include="SeedWork\StronglyTypedIdValueConverterSelector.cs" />
+    <Compile Include="SeedWork\TypedIdValueConverter.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.0.2" />
+    <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Quartz" Version="3.2.0" />
+    <PackageReference Include="Serilog" Version="2.10.1-dev-01249" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
   <ItemGroup>

@@ -97,3 +97,5 @@ C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\obj\Debug\netcoreapp3.1\UnitT
 C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\obj\Debug\netcoreapp3.1\UnitTest.pdb
 C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\obj\Debug\netcoreapp3.1\UnitTest.genruntimeconfig.cache
 C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\S.bijavar\source\repos\CQRSInfra\UnitTest\bin\Debug\netcoreapp3.1\NSubstitute.dll

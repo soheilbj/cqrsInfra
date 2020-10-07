@@ -110,6 +110,10 @@
               "target": "Package",
               "version": "[16.4.0, )"
             },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.15.1, )"

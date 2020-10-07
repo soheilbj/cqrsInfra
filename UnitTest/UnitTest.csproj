@@ -7,10 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="CustomerFactory.cs" />
+    <Compile Include="CustomerRegistrationTests.cs" />
+    <Compile Include="PlaceOrderTests.cs" />
+    <Compile Include="DomainEventsTestHelper.cs" />
+    <Compile Include="TestBase.cs" />
+    <Compile Include="MoneyValueTests.cs" />
     <Compile Include="UnitTest1.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="NSubstitute" Version="4.2.2" />
     <PackageReference Include="nunit" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
